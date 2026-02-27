@@ -115,6 +115,7 @@
 			<Language>Русский</Language>
 			<Catalog>СтатьиРасходов</Catalog>
 			<Document>Расход</Document>
+			<Report>Операции</Report>
 			<AccumulationRegister>Расходы</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
