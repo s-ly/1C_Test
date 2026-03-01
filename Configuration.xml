@@ -114,9 +114,13 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>СтатьиРасходов</Catalog>
+			<Catalog>СтатьиДоходов</Catalog>
 			<Document>Расход</Document>
+			<Document>Доход</Document>
 			<Report>Операции</Report>
+			<Report>ОперацииДоход</Report>
 			<AccumulationRegister>Расходы</AccumulationRegister>
+			<AccumulationRegister>Доходы</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

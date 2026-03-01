@@ -19,6 +19,18 @@
 			<v8:Code>000000003</v8:Code>
 			<v8:Description>Развлечения</v8:Description>
 		</v8:CatalogObject.СтатьиРасходов>
+		<v8:CatalogObject.СтатьиДоходов>
+			<v8:Ref xsi:type="v8:CatalogRef.СтатьиДоходов">32d88a5f-14f6-11f1-9d25-646c807a8066</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Зарплата</v8:Description>
+		</v8:CatalogObject.СтатьиДоходов>
+		<v8:CatalogObject.СтатьиДоходов>
+			<v8:Ref xsi:type="v8:CatalogRef.СтатьиДоходов">32d88a60-14f6-11f1-9d25-646c807a8066</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000002</v8:Code>
+			<v8:Description>Шабашка</v8:Description>
+		</v8:CatalogObject.СтатьиДоходов>
 		<v8:DocumentObject.Расход>
 			<v8:Ref>2924c792-13c9-11f1-9d25-646c807a8066</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -55,6 +67,33 @@
 			<v8:Статья xsi:type="v8:CatalogRef.СтатьиРасходов">2924c791-13c9-11f1-9d25-646c807a8066</v8:Статья>
 			<v8:Сумма>150</v8:Сумма>
 		</v8:DocumentObject.Расход>
+		<v8:DocumentObject.Расход>
+			<v8:Ref>383843e8-1501-11f1-9d25-646c807a8066</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2026-03-01T02:57:21</v8:Date>
+			<v8:Number>000000005</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Статья xsi:type="v8:CatalogRef.СтатьиРасходов">2924c790-13c9-11f1-9d25-646c807a8066</v8:Статья>
+			<v8:Сумма>120</v8:Сумма>
+		</v8:DocumentObject.Расход>
+		<v8:DocumentObject.Доход>
+			<v8:Ref>cd98f18f-14fd-11f1-9d25-646c807a8066</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2026-03-01T02:34:53</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Статья xsi:type="v8:CatalogRef.СтатьиДоходов">32d88a5f-14f6-11f1-9d25-646c807a8066</v8:Статья>
+			<v8:Сумма>100000</v8:Сумма>
+		</v8:DocumentObject.Доход>
+		<v8:DocumentObject.Доход>
+			<v8:Ref>d97a6cc2-14fd-11f1-9d25-646c807a8066</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2026-03-01T02:34:57</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Статья xsi:type="v8:CatalogRef.СтатьиДоходов">32d88a60-14f6-11f1-9d25-646c807a8066</v8:Статья>
+			<v8:Сумма>50000</v8:Сумма>
+		</v8:DocumentObject.Доход>
 		<v8:AccumulationRegisterRecordSet.Расходы>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -119,6 +158,54 @@
 				<v8:СуммаРасхода>150</v8:СуммаРасхода>
 			</v8:Record>
 		</v8:AccumulationRegisterRecordSet.Расходы>
+		<v8:AccumulationRegisterRecordSet.Расходы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Расход">383843e8-1501-11f1-9d25-646c807a8066</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>383843e8-1501-11f1-9d25-646c807a8066</v8:Recorder>
+				<v8:Period>2026-03-01T02:57:21</v8:Period>
+				<v8:RecordType>Receipt</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Статья xsi:type="v8:CatalogRef.СтатьиРасходов">2924c790-13c9-11f1-9d25-646c807a8066</v8:Статья>
+				<v8:СуммаРасхода>120</v8:СуммаРасхода>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.Расходы>
+		<v8:AccumulationRegisterRecordSet.Доходы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Доход">cd98f18f-14fd-11f1-9d25-646c807a8066</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>cd98f18f-14fd-11f1-9d25-646c807a8066</v8:Recorder>
+				<v8:Period>2026-03-01T02:34:53</v8:Period>
+				<v8:RecordType>Receipt</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Статья xsi:type="v8:CatalogRef.СтатьиДоходов">32d88a5f-14f6-11f1-9d25-646c807a8066</v8:Статья>
+				<v8:СуммаДохода>100000</v8:СуммаДохода>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.Доходы>
+		<v8:AccumulationRegisterRecordSet.Доходы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Доход">d97a6cc2-14fd-11f1-9d25-646c807a8066</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d97a6cc2-14fd-11f1-9d25-646c807a8066</v8:Recorder>
+				<v8:Period>2026-03-01T02:34:57</v8:Period>
+				<v8:RecordType>Receipt</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Статья xsi:type="v8:CatalogRef.СтатьиДоходов">32d88a60-14f6-11f1-9d25-646c807a8066</v8:Статья>
+				<v8:СуммаДохода>50000</v8:СуммаДохода>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.Доходы>
 	</V8Exch:Data>
 	<PredefinedData/>
 </V8Exch:_1CV8DtUD>
